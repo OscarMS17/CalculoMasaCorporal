@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         myButtonListenerMethod();
     }
+    public void hello(){}
+    
         public void myButtonListenerMethod(){
             Button button = (Button) findViewById(R.id.button);
             button.setOnClickListener(new View.OnClickListener(){
@@ -49,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
 
 
             });
+
         }
         }
 
